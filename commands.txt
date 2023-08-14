@@ -1,0 +1,6 @@
+Запуск теста:
+python -m unittest tests\test_arrs.py
+
+Отчет на покрытие теста:
+coverage run -m unittest tests\test_arrs.py
+coverage html
