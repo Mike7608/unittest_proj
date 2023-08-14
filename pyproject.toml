@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "unittest-proj"
+version = "0.1.0"
+description = "урок 12.2 задание 3-4 unittest"
+authors = ["Mike Kushner <mike760807@gmail.com>"]
+readme = "README.md"
+packages = [{include = "unittest_proj"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
